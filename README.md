@@ -10,7 +10,9 @@ We compared DLGFA with VAE[1],CVAE[2],oi-VAE[3],and GFA[4]. To further check and
 
 
 
-[1] Kingma, D. P. and Welling, M. Auto-encoding variational bayes. arXiv:1312.6114, 2013.
+
+
+[1] Kingma, D. P. and Welling, M. Auto-encoding variational bayes. arXiv:1312.6114, 2013. \\
 [2] Sohn et al., Learning Structured Output Representation Using Deep Conditional Generative Models. NIPS 2015.
 [3] Ainsworth, S. K., Foti, N. J., Lee, A. K. C., and Fox, E. B. oi-vae: Output interpretable vaes for nonlinear group
 factor analysis. In Proceedings of the 35th International Conference on Machine Learning (ICML 18), 2018.
