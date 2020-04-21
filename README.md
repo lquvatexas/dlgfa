@@ -26,13 +26,18 @@ VAE[0.07175(0.0475)], CVAE[0.0712(0.0464)], oi-VAE[0.0626(0.0272)], DLGFA[0.0259
 
 Summary: 1. DLGFA can identify sensible disentangled representations in the latent space.
 
-         2. The captured dynamics is interpretable.By checking the group associated dominant factors, we will know     
-         which group has the largest variations at particular time point, further examing the sparse W matrix we will 
-         know which features are most important and if those dominant factors and within features showed dynamic 
-         changes, we will get insight the dynamics interaction between groups and within group. This is very 
-         meaningful for studying the multi-omics group datasets of pandemic diseases propagation, like covid19.
+
+         2. The captured dynamics is interpretable.
          
-         3. DLGFA is so needed in biomedical clinical study with limited sample size but large co-occuring gene,  
+         By checking the group associated dominant factors, we will know which group has the largest variations at  
+         particular time point, further examing the sparse W matrix we will know which features are most important  
+         and if those dominant factors and within features showed dynamic changes, we will get insight the dynamics  
+         interaction between groups and within group. This is very meaningful for studying the multi-omics group 
+         datasets of pandemic diseases propagation, like covid19.
+         
+         3. DLGFA can deal with limited sample size problems.
+         
+         This so needed in biomedical clinical study with limited sample size but large co-occuring gene,  
          protein, metabolomics, clinical test, etc. How those data are correlated with each other during the disease 
          propagation is the key to find the cure for rare disease.
 
