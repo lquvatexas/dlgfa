@@ -38,9 +38,11 @@ Summary:
          
         3. DLGFA can deal with limited sample size problems.
          
-         This so needed in biomedical clinical study with limited sample size but large co-occuring gene,  
+         This is so needed in biomedical clinical study with limited sample size but large co-occuring gene,  
          protein, metabolomics, clinical test, etc. How those data are correlated with each other during the disease 
-         propagation is the key to find the cure for rare disease.
+         propagation is the key to find the cure for rare disease. To our best knowledge, DLGFA is the first model 
+         can handle longitudinal multiple co-occuring high dimensional datasets(small n and large p) which can reach 
+         interpretable results. 
 
 
 
