@@ -25,11 +25,13 @@ DLGFA performs better than all the competitors under the limited sample size dat
 VAE[0.07175(0.0475)], CVAE[0.0712(0.0464)], oi-VAE[0.0626(0.0272)], DLGFA[0.0259(0.0067)]. For other setup we used batch-size = 10 for VAE, CVAE, oi-VAE to achieve optimum results.
 
 Summary: 1. DLGFA can identify sensible disentangled representations in the latent space.
+
          2. The captured dynamics is interpretable.By checking the group associated dominant factors, we will know     
          which group has the largest variations at particular time point, further examing the sparse W matrix we will 
          know which features are most important and if those dominant factors and within features showed dynamic 
          changes, we will get insight the dynamics interaction between groups and within group. This is very 
-         meaningful for studying the multi-omics group datasets of pandemic diseases propagation, like covid19. 
+         meaningful for studying the multi-omics group datasets of pandemic diseases propagation, like covid19.
+         
          3. DLGFA is so needed in biomedical clinical study with limited sample size but large co-occuring gene,  
          protein, metabolomics, clinical test, etc. How those data are correlated with each other during the disease 
          propagation is the key to find the cure for rare disease.
@@ -38,10 +40,13 @@ Summary: 1. DLGFA can identify sensible disentangled representations in the late
 
 
 
-[1] Kingma, D. P. and Welling, M. Auto-encoding variational bayes. arXiv:1312.6114, 2013. 
+[1] Kingma, D. P. and Welling, M. Auto-encoding variational bayes. arXiv:1312.6114, 2013.
+
 [2] Sohn et al., Learning Structured Output Representation Using Deep Conditional Generative Models. NIPS 2015.
-[3] Ainsworth, S. K., Foti, N. J., Lee, A. K. C., and Fox, E. B. oi-vae: Output interpretable vaes for nonlinear group
-factor analysis. In Proceedings of the 35th International Conference on Machine Learning (ICML 18), 2018.
+
+[3] Ainsworth, S. K., Foti, N. J., Lee, A. K. C., and Fox, E. B. oi-vae: Output interpretable vaes for nonlinear group factor analysis. In Proceedings of the 35th International Conference on Machine Learning (ICML 18), 2018.
+
 [4] Leppaaho, E., Ammad–ud–din, M., and Kaski, S. Gfa: Exploratory analysis of multiple data sources with group
 factor analysis. Journal of Machine Learning Research, 18:1–5, 2017.
+
 [5] Casale et al. Gaussian Process Prior Variational Autoencoders, NeurIPS 2018.
