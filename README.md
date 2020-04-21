@@ -36,7 +36,7 @@ Summary:
          interaction between groups and within group. This is very meaningful for studying the multi-omics group 
          datasets of pandemic diseases propagation, like covid19.
          
-         3. DLGFA can deal with limited sample size problems.
+        3. DLGFA can deal with limited sample size problems.
          
          This so needed in biomedical clinical study with limited sample size but large co-occuring gene,  
          protein, metabolomics, clinical test, etc. How those data are correlated with each other during the disease 
