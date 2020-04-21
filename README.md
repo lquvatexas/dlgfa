@@ -1,6 +1,6 @@
 # dlgfa
 
-We compared DLGFA with VAE[1],CVAE[2],oi-VAE[3],and GFA[4]. To further check and validate how well the disentanglement is achieved, we propose to visualize the W matrix in our original submission. We now also propose to quantitatively compare the MSE (mean squared error) on the test data with alternative methods. I
+We compared DLGFA with VAE[1],CVAE[2],oi-VAE[3],and GFA[4]. To further check and validate how well the disentanglement is achieved, we propose to visualize the W matrix and quantitatively compare the MSE (mean squared error) on the test data with alternative methods. 
 
 
 
