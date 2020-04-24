@@ -22,7 +22,7 @@ Z=30: VAE[0.0777(0.0473)], CVAE[0.0467(0.0257)], oi-VAE[0.0479(0.0202)], DLGFA[0
 DLGFA performs better than all the competitors under the limited sample size data.
 
 4. In biomedical field, it is very common that we have limited patients/samples who followed a long time medical study. And this is also one advantage of DLGFA  compared to other deep learning methods which is a generative model framework with hierarchical priors and can deal with high dimensional problems. We justified this point by using batch-size=2 to compare the test MSE of four methods. 
-VAE[0.07175(0.0475)], CVAE[0.0712(0.0464)], oi-VAE[0.0626(0.0272)], DLGFA[0.0259(0.0067)]. For other setup we used batch-size = 10 for VAE, CVAE, oi-VAE to achieve optimum results.
+VAE[0.07175(0.0475)], CVAE[0.0712(0.0464)], oi-VAE[0.0626(0.0272)], DLGFA[0.0259(0.0067)]. 
 
 Summary: 
         
